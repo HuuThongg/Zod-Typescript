@@ -42,6 +42,17 @@ module.exports = {
             '--tw-prose-invert-td-borders': theme('colors.pink[700]'),
           },
         },
+        DEFAULT: {
+          css: {
+            color: 'gray',
+            a: {
+              color: 'blue',
+              '&:hover': {
+                color: '#2c5282',
+              },
+            },
+          },
+        },
       }),
     },
   },

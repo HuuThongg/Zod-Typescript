@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Typo from './components/Typo'
-import ReactMarkdown from './components/ReactMarkdown'
+import ReactMarkdownn from './components/ReactMarkdown'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App"> 
       <Typo/>
-      <ReactMarkdown/>
+      {/* <ReactMarkdownn/> */}
     </div>
   )
 }
